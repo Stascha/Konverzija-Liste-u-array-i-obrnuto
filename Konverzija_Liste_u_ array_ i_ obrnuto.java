@@ -7,10 +7,10 @@ public class Convert_List_to_array_and_array_to_List
     {
         int[] arr = new int[list.size()];
 		
-	    for (int i = 0; i < arr.length; i++)
-		    arr[i] = list.get(i);
+	for (int i = 0; i < arr.length; i++)
+	    arr[i] = list.get(i);
 	
-	   return arr;
+	return arr;
     }
     
     // Konvertovanje int[] u List<Integer>
@@ -18,22 +18,22 @@ public class Convert_List_to_array_and_array_to_List
     {
         List<Integer> list = new ArrayList<Integer>();
  
-	    for (int i = 0; i < arr.length; i++)
-	       list.add( arr[i] );
+	for (int i = 0; i < arr.length; i++)
+	    list.add( arr[i] );
 	
-	    return list;
+	return list;
     }
 
    // Pravljenje List<Integer> sa slucajnim brojevima
     public static List<Integer>  Make_A_List_Integer(int n, int max)
     {
         Random random = new Random();
-	    List<Integer> list = new ArrayList<Integer>();
+	List<Integer> list = new ArrayList<Integer>();
 		
-	    for(int i = 0; i < n; i++)
-	  	    list.add(random.nextInt(max));
+	for(int i = 0; i < n; i++)
+	    list.add(random.nextInt(max));
 	
-	    return list;
+	return list;
    }	
     
 
