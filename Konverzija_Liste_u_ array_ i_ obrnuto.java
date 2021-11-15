@@ -39,39 +39,31 @@ public class Convert_List_to_array_and_array_to_List
 
     public static void main (String[] args)
     {
-   	    List<Integer> list =  Make_A_List_Integer(7, 9);
-   	    
+   	List<Integer> list =  Make_A_List_Integer(7, 9);
    	   
-	    for (int i = 0; i < list.size(); i++)
-	   	    System.out.print(	list.get(i) + " " );
+	for (int i = 0; i < list.size(); i++)
+	    System.out.print(	list.get(i) + " " );
 	    	    
-	  	System.out.println( );
-		
+	System.out.println( );
 	   
-	    int[] a = List_Integer_to_int_array(list);
-	
+	int[] a = List_Integer_to_int_array(list);
 	   
-	    for (int i = 0; i < a.length; i++)
-	        System.out.print(  a[i] + " "  ); 
-	
+	for (int i = 0; i < a.length; i++)
+	    System.out.print(  a[i] + " "  ); 
 	     
-	    List<Integer> list_2 = Int_array_to_List_Integer( a );
+	List<Integer> list_2 = Int_array_to_List_Integer( a );
 	    
-	    System.out.println( );
+	System.out.println( );
 	    
-	    
-	    for (int i = 0; i < list_2.size(); i++)
-	   	    System.out.print(	list_2.get(i) + " " );
+	for (int i = 0; i < list_2.size(); i++)
+	    System.out.print(	list_2.get(i) + " " );
 	    	    
-	    System.out.println( );
-	    
+	System.out.println( );
 	   
-	    int[] a_2 = List_Integer_to_int_array(list_2);
-	
+	int[] a_2 = List_Integer_to_int_array(list_2);
 	    
-	    for (int i = 0; i < a_2.length; i++)
-	   	    System.out.print(  a_2[i] + " "  ); 
-	
+	for (int i = 0; i < a_2.length; i++)
+	    System.out.print(  a_2[i] + " "  ); 
 		
     }		
 
