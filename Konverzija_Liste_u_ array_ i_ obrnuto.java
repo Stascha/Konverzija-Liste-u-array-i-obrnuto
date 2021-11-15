@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Convert_Matrix
+public class Convert_List_to_array_and_array_to_List
 {
     // Konvertovanje List<Integer> u int[]
     public static int[] List_Integer_to_int_array(List<Integer> list)
