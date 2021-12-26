@@ -3,6 +3,9 @@ import java.util.*;
 public class Convert_List_to_array_and_array_to_List
 {
     // Konvertovanje List<Integer> u int[]
+	
+    Integer[] arr = list.toArray(new Integer[0]);
+	
     public static int[] List_Integer_to_int_array(List<Integer> list)
     {
         int[] arr = new int[list.size()];
@@ -12,8 +15,11 @@ public class Convert_List_to_array_and_array_to_List
 	
 	return arr;
     }
-    
-    // Konvertovanje int[] u List<Integer>
+	
+     // Konvertovanje int[] u List<Integer>
+	
+    List<Integer> list = Arrays.asList(arr);
+   
     public static List<Integer>  Int_array_to_List_Integer(int[] arr)
     {
         List<Integer> list = new ArrayList<Integer>();
